@@ -1,4 +1,3 @@
-import React from "react";
 import { artistBio, streamingLinks, albums } from "./ArtistInformation";
 
 export default function Listen() {

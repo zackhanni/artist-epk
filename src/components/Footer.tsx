@@ -1,4 +1,3 @@
-import React from "react";
 import { Button } from "./Buttons";
 import SocialMedia from "./SocialMedia";
 import { artistBio } from "./ArtistInformation";

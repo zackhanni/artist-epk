@@ -1,5 +1,3 @@
-import React, { useState } from "react";
-
 export default function Photos() {
   const images = require.context(
     "../../public/photos",

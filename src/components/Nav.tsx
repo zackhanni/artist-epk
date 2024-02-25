@@ -1,4 +1,3 @@
-import React from "react";
 import { artistBio } from "./ArtistInformation";
 
 export default function Nav() {
