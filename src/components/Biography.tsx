@@ -7,7 +7,7 @@ export default function Biography() {
         <h2 className="text-4xl text-center">Artist Bio</h2>
         {artistBio.biography.map((paragraph) => {
           return (
-            <div className="">
+            <div key={paragraph} className="">
               <p key={paragraph} className="">
                 {paragraph}
               </p>
