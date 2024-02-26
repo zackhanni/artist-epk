@@ -1,17 +1,22 @@
-export default function Photos() {
-  const images = require.context(
-    "../../public/photos",
-    true,
-    /\.(png|jpe?g|svg)$/
-  );
-  const imageFiles = images.keys().map(images);
-  //   const [count, setCount] = useState(0);
+import { photos } from "./ArtistInformation";
 
+export default function Photos() {
   return (
-    <section className="overflow-hidden">
-      <div className="flex">
-        {imageFiles.map((image) => {
-          return <img src={image} alt={image} className="h-[200px] w-auto" />;
+    <section
+      id="photos"
+      className="overflow-hidden bg-[#f0ece2] text-[#596e79]"
+    >
+      {/* <h2 className="text-4xl text-center pb-4">Images</h2> */}
+      <div className="flex justify-center">
+        {photos.map((image: string) => {
+          return (
+            <img
+              key={image}
+              src={image}
+              alt={image}
+              className="h-[200px] w-auto"
+            />
+          );
         })}
       </div>
     </section>

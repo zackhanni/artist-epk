@@ -86,3 +86,12 @@ export const albums = [
     date: "December 2023",
   },
 ];
+
+export const photos = [
+  "../../public/photos/1.jpg",
+  "../../public/photos/2.jpg",
+  "../../public/photos/3.jpg",
+  "../../public/photos/4.jpg",
+  "../../public/photos/5.jpg",
+  "../../public/photos/6.jpg",
+];
