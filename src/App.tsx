@@ -4,7 +4,7 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Listen from "./components/Listen";
 import Nav from "./components/Nav";
-// import Photos from "./components/Photos";
+import Photos from "./components/Photos";
 import Videos from "./components/Videos";
 
 export default function App() {
@@ -14,12 +14,11 @@ export default function App() {
         <Nav />
         <main className="pt-16">
           <Hero />
-          {/* <Photos /> */}
+          <Photos />
           <Biography />
           <Listen />
           <Videos />
         </main>
-
         <Footer />
       </header>
     </div>
