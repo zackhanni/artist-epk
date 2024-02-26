@@ -22,7 +22,7 @@ export function Button(props: ButtonProps) {
       <div
         id="this-button"
         className="hover:-translate-y-2 hover:-translate-x-2 duration-300 
-      border-4 hover:border-b-8 hover:border-r-8 overflow-hidden
+      border-4 hover:border-b-8 hover:border-r-8 hover:-mt-1 overflow-hidden
         "
       >
         <h2 className=" p-4 font-bold hover:underline uppercase text-center">
