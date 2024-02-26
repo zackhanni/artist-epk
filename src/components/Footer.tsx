@@ -5,7 +5,7 @@ import { artistBio } from "./ArtistInformation";
 export default function Footer() {
   return (
     <section className="text-white py-24 space-y-16 flex flex-col items-center">
-      <p className="text-center text-3xl">Book Juice Eliott</p>
+      <p className="text-center text-3xl">Book {artistBio.name}</p>
       <SocialMedia />
       <a className="hover:underline" href={`mailto:${artistBio.email}`}>
         {artistBio.email}
