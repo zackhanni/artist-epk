@@ -7,6 +7,7 @@ import {
   faApple,
 } from "@fortawesome/free-brands-svg-icons";
 
+// Main artist information
 export const artistBio = {
   name: "Juice Elliott",
   email: "juiceelliottmusic@gmail.com",
@@ -19,6 +20,7 @@ export const artistBio = {
   ],
 };
 
+// Social media links and icons
 export const socialMedia = [
   {
     name: "Instagram",
@@ -37,6 +39,7 @@ export const socialMedia = [
   },
 ];
 
+// Streaming platform links and icons
 export const streamingLinks = [
   {
     name: "Spotify",
@@ -51,6 +54,7 @@ export const streamingLinks = [
   },
 ];
 
+// Video section
 export const videoLinks = [
   {
     title: "Lately",
@@ -66,6 +70,7 @@ export const videoLinks = [
   },
 ];
 
+// Listen section
 export const albums = [
   {
     name: "Lately (Single)",
@@ -87,6 +92,7 @@ export const albums = [
   },
 ];
 
+// Photos section
 export const photos = [
   "/photos/1.jpg",
   "/photos/2.jpg",
