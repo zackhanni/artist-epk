@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="w-full py-16 max-w-screen-md mx-auto text-white"
+      className="w-full sm:py-16 max-w-screen-md mx-auto text-white"
     >
       <div className="flex sm:flex-row flex-col">
         <div className="mx-auto">

@@ -18,14 +18,14 @@ export default function Listen() {
       </div>
       <div>
         <h3 className="text-center text-2xl">Official Studio Music Releases</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 my-8 gap-4 items-end">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 pt-8 gap-y-8 items-end">
           {albums.map((album) => {
             return (
               <a
                 href={album.link}
                 key={album.name}
                 className="mx-auto bg-blue-800 p-4 rounded-3xl hover:-translate-y-2 hover:-translate-x-2 duration-300 
-             hover:border-b-8 hover:border-r-8 border-blue-600 hover:-mt-2 box-border"
+             hover:border-b-8 hover:border-r-8 border-blue-600 hover:-mt-2 hover:sm:-mb-2 box-border"
               >
                 <img
                   src={album.image}
