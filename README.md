@@ -1,30 +1,30 @@
-# React + TypeScript + Vite
+# Artist EPK
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This artist electronic press kit (epk) template was made by Zack Hanni using Vite, React, Typescript, and Tailwind.
 
-Currently, two official plugins are available:
+LIVE DEMO - https://artist-epk.vercel.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Getting started
 
-## Expanding the ESLint configuration
+1. Clone or download this template
+2. Open it in your favorite code editor
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+3. run "npm install" to install all dependencies
+4. run "npm run dev" to see this project on your localhost server
 
-- Configure the top-level `parserOptions` property like this:
+## How to make text changes
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+Edit the Artist information.tsx file (artist-epk > src > components > ArtistInformation.tsx) to automatically make changes across this site.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Add your images
+
+Images go in the 'public' folder. You should reference image location and names in the ArtistInformation.tsx file.
+
+## Deployment
+
+- Its super quick to deploy this on Vercel.(https://vercel.com/)
+- Buy a domain name on namecheap (https://www.namecheap.com/)
+
+## Say thanks
+
+If you like this template, star the project repo and give me a shout out.
