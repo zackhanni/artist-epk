@@ -9,27 +9,14 @@ import {
 
 // Main artist information
 export const artistBio = {
-  name: "Sheldon Price",
-  email: "SheldonPrice111@gmail.com",
+  name: "Juice Elliott",
+  email: "juiceelliottmusic@gmail.com",
   biography: [
-    "Dear Fans,",
-    "It is with immense gratitude and joy that I write this letter to each and every one of you who have been a part of my musical journey. For years, I have had the privilege of living in a world of love, sharing my music with the world and witnessing the power of music to connect souls.",
+    "Juice Elliott, a captivating poet and rapper hailing from the vibrant streets of Philadelphia, is an artist who effortlessly weaves the threads of melancholy and joy through his music, crafting a unique sound that has been coined as 'pleasantly depressing.' The result is a musical landscape that resonates with listeners on a profound level, evoking a range of emotions that mirror the complexity of life itself.",
 
-    "From creating original music to collaborating with some of the greatest producers in the industry, my passion for music has taken me on a journey filled with unforgettable live performances. From the bright lights of Atlantic City to the dazzling stages of Las Vegas, and from the heart of Canada to overseas adventures, each moment shared with you has been a treasure.",
+    "Having etched his mark on the Philadelphia music scene, Juice Elliott has released over 10 soul-stirring singles that showcase his lyrical prowess and ability to tap into the depths of human experience. His crowning achievement, the album 'Indigo Blue', stands as a testament to his commitment to pushing artistic boundaries and exploring the rich tapestry of emotions within his work.",
 
-    "One of the greatest joys in my musical career is the opportunity to perform with the most incredible live band, whose talent and energy never fail to mesmerize audiences. Together, we create an experience that I am confident you will enjoy and remember for years to come.",
-
-    "As a tribute to the legendary Lou Rawls, I have poured my heart and soul into my music, singing not only his classics but also my own original pieces. Jazz is my passion, and the timeless melodies of artists like Lou Rawls, Will Downing, and Jeffrey Osborne inspire me to continue creating music that speaks to the soul.",
-
-    "If you are looking for live music that will elevate your special occasions, from weddings to nightclubs to private parties and beyond, look no further. My music is a blend of soulful melodies and heartfelt lyrics that will create an unforgettable atmosphere for you and your guests.",
-
-    "You can find my new music on all social media platforms, and I am excited to share that my latest song, 'Love is Here to Stay,' is now available for you to enjoy. Let the music fill your heart with love and joy, and remember to keep the love inside of your heart, always.",
-
-    "For bookings and inquiries, please reach out to me at SheldonPrice111@gmail.com or visit www.sheldonprice.com. Your support and love mean the world to me, and I cannot wait to continue this musical journey with each and every one of you.",
-
-    "With love and gratitude,",
-
-    "Sheldon Price",
+    "Beyond the studio, Juice Elliott is a dynamic force on the stage, actively performing at various venues across the city. His live performances are not just concerts; they are immersive experiences that allow audiences to connect with the raw honesty embedded in his lyrics. As a torchbearer for the underground music culture of Philly, Juice has forged collaborations with a myriad of local artists, further enriching the city's diverse musical landscape.",
   ],
 };
 
@@ -70,21 +57,17 @@ export const streamingLinks = [
 // Video section
 export const videoLinks = [
   {
-    title: "Promotion Video",
-    link: "https://www.youtube.com/embed/HUuh4DDLkEM?si=iZBVYgJMR8u0NYKu",
+    title: "Lately",
+    link: "https://www.youtube.com/embed/jlRzKiq6wgY?si=xZf933uU97ZwdD7D",
   },
   {
-    title: "My Funny Valentine - Live at Gatsby's Nightclub",
-    link: "https://www.youtube.com/embed/iEV0CfzWcvA?si=EWWR7xkyM4dfJi8d",
+    title: "Roger Sterling",
+    link: "https://www.youtube.com/embed/HyvwWC6_Meg?si=_IKpXnr0wzh9EFV7",
   },
   {
-    title: "Besame Mucho - Live at the Gatsby Night Club",
-    link: "https://www.youtube.com/embed/VWnjgyWruy4?si=j41H2fF06oF3AMK-",
+    title: "Paper",
+    link: "https://www.youtube.com/embed/a3fhwNmyt-A?si=hzYl5sYompNrFu8s",
   },
-  // {
-  //   title: "Sheldon Price singing before the show",
-  //   link: "https://www.facebook.com/plugins/video.php?height=476&href=https%3A%2F%2Fwww.facebook.com%2Fsalima.hakeem%2Fvideos%2F10154347392296712%2F&show_text=false&width=267&t=0",
-  // },
 ];
 
 // Listen section
