@@ -25,9 +25,9 @@ export function Button(props: ButtonProps) {
       border-4 hover:border-b-8 hover:border-r-8 hover:-mb-1  overflow-hidden
         "
       >
-        <h2 className=" p-4 font-bold hover:underline uppercase text-center">
+        <p className=" p-4 font-bold hover:underline uppercase text-center">
           {props.text}
-        </h2>
+        </p>
       </div>
     </a>
   );
@@ -46,9 +46,9 @@ export function RedButton(props: ButtonProps) {
           inView ? "show-bot" : "hide-bot"
         }`}
       >
-        <h2 className="py-3 px-8 text-sm hover:underline uppercase">
+        <p className="py-3 px-8 text-sm hover:underline uppercase">
           {props.text}
-        </h2>
+        </p>
       </div>
     </a>
   );
