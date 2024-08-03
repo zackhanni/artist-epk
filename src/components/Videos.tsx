@@ -3,7 +3,7 @@ import { videoLinks } from "./ArtistInformation";
 export default function Videos() {
   return (
     <section id="videos" className="py-16 bg-[#f0ece2] text-[#596e79] ">
-      <h2 className=" text-4xl text-center">Videos</h2>
+      <h2 className=" text-3xl text-center">Videos</h2>
       <div className="flex flex-row flex-wrap items-center justify-center pt-16  max-w-screen-md mx-auto  ">
         {videoLinks.map((video) => {
           return (
