@@ -15,13 +15,13 @@ export default function Nav() {
   return (
     <nav className="h-16 w-full fixed top-0 bg-black/10 text-white backdrop-blur-sm flex justify-between px-8 items-center ">
       <a href="/" className="z-10">
-        <h1 className="font-bold">{artistBio.name} EPK</h1>
+        <h1 className="font-bold text-xl">{artistBio.name} EPK</h1>
       </a>
 
       <MobileNav click={click} setClick={setClick} navItems={navItems} />
 
       {/* desktop nav */}
-      <div className="space-x-3 hidden sm:block">
+      <div className="space-x-4 hidden sm:block">
         {navItems.map((item) => {
           return (
             <a key={item.name} href={item.link} className="hover:underline">
